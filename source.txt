@@ -1,0 +1,4 @@
+Streams API: 
+- https://www.youtube.com/watch?v=fE_1zPrt9UA
+- https://dev.java/learn/api/streams/
+
