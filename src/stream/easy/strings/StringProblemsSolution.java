@@ -13,8 +13,7 @@ public class StringProblemsSolution {
   }
 
   public static String findLargestWordInTheString(String input) {
-    String maxString =
-        Arrays.stream(input.split(" ")).max(Comparator.comparing(String::length)).get();
+    String maxString = Arrays.stream(input.split(" ")).max(Comparator.comparing(String::length)).get();
     return maxString;
   }
 

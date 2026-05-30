@@ -63,7 +63,7 @@ public class EasyNumbersProblemSolution {
     return input.stream().map(value -> (value * 9.0 / 5.0) + 32).toList();
   }
 
-    public static List<String> uniqueEmailAddresses(List<String> input) {
-      return input.stream().distinct().toList();
-    }
+  public static List<String> uniqueEmailAddresses(List<String> input) {
+    return input.stream().distinct().toList();
+  }
 }
